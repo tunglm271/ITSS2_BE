@@ -1220,8 +1220,8 @@
   "orders": [
     {
       "id": "ORD123456",
-      "userId": "1",
-      "shopId": "1",
+      "userId": 1,
+      "shopId": 1,
       "status": "completed",
       "files": [
         {
@@ -1240,7 +1240,7 @@
     },
     {
       "id": "55ab",
-      "userId": "1",
+      "userId": 1,
       "shopId": "16",
       "files": [
         {
@@ -1256,7 +1256,7 @@
     },
     {
       "id": "c846",
-      "userId": "1",
+      "userId": 1,
       "shopId": "16",
       "files": [
         {
@@ -1269,6 +1269,112 @@
       ],
       "pickupTime": "2025-05-29T22:47",
       "note": "asdfsadf"
+    },
+    {
+      "id": "3f01",
+      "userId": 1,
+      "shopId": "16",
+      "files": [
+        {
+          "name": "Business_Case_-_GR24_jhapqk.docx",
+          "url": "http://res.cloudinary.com/dhmbivnr2/raw/upload/v1747486075/Business_Case_-_GR24_jhapqk.docx",
+          "quantity": 1,
+          "size": "A4",
+          "format": "Màu"
+        }
+      ],
+      "pickupTime": "2025-05-22T19:51",
+      "note": "fsdfsdf"
+    },
+    {
+      "id": "9db6",
+      "userId": 1,
+      "shopId": 1,
+      "files": [
+        {
+          "name": "Business_Case_-_GR24_j0ncy1.docx",
+          "url": "http://res.cloudinary.com/dhmbivnr2/raw/upload/v1747486358/Business_Case_-_GR24_j0ncy1.docx",
+          "quantity": 1,
+          "size": "A4",
+          "format": "Màu"
+        }
+      ],
+      "pickupTime": "2025-05-14T19:55",
+      "note": ""
+    },
+    {
+      "id": "ace0",
+      "userId": 1,
+      "shopId": 1,
+      "files": [
+        {
+          "name": "Business_Case_-_GR24_cpupbw.docx",
+          "url": "http://res.cloudinary.com/dhmbivnr2/raw/upload/v1747486392/Business_Case_-_GR24_cpupbw.docx",
+          "quantity": 1,
+          "size": "A4",
+          "format": "Màu"
+        }
+      ],
+      "pickupTime": "2025-05-23T19:57",
+      "note": "asdfasdf"
+    },
+    {
+      "id": "18ce",
+      "userId": 1,
+      "shopId": 4,
+      "files": [
+        {
+          "name": "Business_Case_-_GR24_h8bdos.docx",
+          "url": "http://res.cloudinary.com/dhmbivnr2/raw/upload/v1747487038/Business_Case_-_GR24_h8bdos.docx",
+          "quantity": 1,
+          "size": "A4",
+          "format": "Màu"
+        }
+      ],
+      "pickupTime": "2025-05-22T23:03",
+      "note": "ádfsadf"
+    },
+    {
+      "id": "7233",
+      "userId": 1,
+      "shopId": "1",
+      "files": [
+        {
+          "name": "Business_Case_-_GR24_krzbus.docx",
+          "url": "http://res.cloudinary.com/dhmbivnr2/raw/upload/v1747487448/Business_Case_-_GR24_krzbus.docx",
+          "quantity": 1,
+          "size": "A4",
+          "format": "Màu"
+        }
+      ],
+      "pickupTime": "2025-05-23T20:12",
+      "note": "ádfasdf"
+    },
+    {
+      "id": "1cae",
+      "userId": 1,
+      "shopId": "1",
+      "files": [
+        {
+          "name": "Business_Case_-_GR24_pepshx.docx",
+          "url": "http://res.cloudinary.com/dhmbivnr2/raw/upload/v1747487898/Business_Case_-_GR24_pepshx.docx",
+          "quantity": 1,
+          "size": "A4",
+          "format": "Màu"
+        }
+      ],
+      "pickupTime": "2025-05-28T20:22",
+      "note": "ádfasdf"
+    }
+  ],
+  "ratings": [
+    {
+      "id": "1",
+      "userId": 1,
+      "shopId": 1,
+      "orderId": "ORD123456",
+      "rating": 5,
+      "createdAt": "2024-03-16T15:00:00.000Z"
     }
   ]
 }
